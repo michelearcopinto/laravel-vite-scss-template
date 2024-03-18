@@ -17,7 +17,7 @@
     </style>
 @endsection
 
-@section('content')
+@section('main_content')
     <h1>Pagina di about</h1>
 
     <p>{{ $lorem }}</p>

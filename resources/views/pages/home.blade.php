@@ -19,7 +19,7 @@
     </style>
 @endsection
 
-@section('content')
+@section('main_content')
     <h1>{{ $greeting }}</h1>
 
     <ul>
