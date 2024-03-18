@@ -49,27 +49,6 @@ table {
     }
 }
 
-.filter-button {
-    width: fit-content;
-    display: block;
-    margin-inline: auto;
-    border: none;
-    background-color: $background-button;
-    color: white;
-    font-size: 20px;
-    font-weight: bolder;
-    border-radius: 4px;
-    padding: 10px 20px;
-    margin-block: 20px;
-    transition: background-color 0.25s;
-
-    &:hover {
-        cursor: pointer;
-        text-decoration: none;
-        background-color: $background-button-hover;
-    }
-}
-
 h1 {
     color: $font-color;
     @include main-font-center;
