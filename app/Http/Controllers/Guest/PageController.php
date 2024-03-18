@@ -30,7 +30,7 @@ class PageController extends Controller
         return view('pages.home', compact('greeting', 'data'));
     }
 
-    public function index_about()
+    public function indexAbout()
     {
 
         $lorem = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto aut excepturi deleniti cupiditate deserunt sint reprehenderit quibusdam tempore voluptas quis, nisi id voluptatibus quaerat repellat doloremque eum eos laborum eaque.';
